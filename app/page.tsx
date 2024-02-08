@@ -7,7 +7,7 @@ function HomePage() {
     <main className="bg-gray-lightest">
       <section className="h-screen flex flex-col space-y-12 items-center justify-center">
         <h1 className="bg-primary text-black p-5 rounded-xl text-6xl font-semibold">
-          {"Hi, I'm Htut"}
+          {"Hi, I'm HWP"}
         </h1>
         <h2 className="text-5xl font-medium">
           A{" "}
@@ -28,9 +28,12 @@ function HomePage() {
           a passion for crafting digital products using cutting-edge
           technologies and delivering high quality solutions with considerations
           of
-          <span className="font-bold text-primary-dark"> User Experience</span>,
-          <span className="font-bold text-primary-dark"> Performance </span>&
-          <span className="font-bold text-primary-dark"> Accessibility </span>
+          <span className="font-bold text-primary-darker">
+            {" "}
+            User Experience
+          </span>
+          ,<span className="font-bold text-primary-darker"> Performance </span>&
+          <span className="font-bold text-primary-darker"> Accessibility </span>
         </p>
       </section>
     </main>

@@ -15,7 +15,7 @@ function Navigation() {
         </div>
         <h3 className="font-bold">HWP.SWE</h3>
       </div>
-      <div className="w-[1px] h-5 bg-gray-dark" />
+      <div className="w-[1px] h-5 bg-gray" />
       <nav className="flex justify-between items-center w-full">
         <ul className="flex items-center space-x-8">
           <li className="text-sm">About</li>

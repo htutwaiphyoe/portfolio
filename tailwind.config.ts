@@ -17,9 +17,10 @@ const config: Config = {
       white: "#ffffff",
       black: "#010101",
       gray: {
-        lightest: "#f7f7f7",
-        dark: "#f7f7f8",
-        DEFAULT: "#ebebeb",
+        lightest: "#f7f7f8",
+        light: "#e6e6e6",
+        dark: "#787878",
+        DEFAULT: "#c4c4c4",
       },
     },
   },
