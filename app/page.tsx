@@ -49,7 +49,7 @@ function HomePage() {
           <p>
             HTML, CSS, SCSS, JavaScript, TypeScript, ReactJS, NextJS, Redux,
             React Query, Recoil, Tailwind, Material UI, React Testing Library,
-            Jest, Cypress, NodeJS, ExpressJS, MongoDB, Firebase
+            Jest, Cypress, Storybook, NodeJS, ExpressJS, MongoDB, Firebase
           </p>
         </div>
       </section>
