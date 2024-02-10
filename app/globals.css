@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply text-base;
+  @apply text-base leading-relaxed;
 }
