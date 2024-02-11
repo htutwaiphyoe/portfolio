@@ -5,6 +5,7 @@ import Portfolio from "@/views/Portfolio";
 import Skills from "@/views/Skills";
 import Milestones from "@/views/Milestones";
 import Projects from "@/views/Projects";
+import Footer from "@/views/Footer";
 
 function HomePage() {
   return (
@@ -19,43 +20,7 @@ function HomePage() {
         <Milestones />
       </section>
       <Projects />
-      <footer className="bg-white p-10 w-[1024px] mx-auto gap-10 grid rounded-2xl place-items-center">
-        <h3 className="text-5xl text-center font-medium leading-snug">
-          Want to start <br /> a project?
-        </h3>
-        <ul className="flex items-center space-x-20 ">
-          <li>
-            <p className="text-gray-dark">Contact me</p>
-            <ul className="flex items-center">
-              <li>htutwaiphyoe@gmail.com</li>
-            </ul>
-          </li>
-          <li>
-            <p className="text-gray-dark">Follow me</p>
-            <ul className="flex items-center space-x-10">
-              <li>
-                <a
-                  className="hover:underline"
-                  href="https://www.linkedin.com/in/htutwaiphyo/"
-                  target="_black"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  className="hover:underline"
-                  href="https://github.com/htutwaiphyoe"
-                  target="_black"
-                >
-                  Github
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <p>2024&copy; - All rights reserved</p>
-      </footer>
+      <Footer />
     </main>
   );
 }

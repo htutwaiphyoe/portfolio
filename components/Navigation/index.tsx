@@ -18,10 +18,16 @@ function Navigation() {
       <div className="w-px h-5 bg-gray" />
       <nav className="flex justify-between items-center w-full">
         <ul className="flex items-center space-x-8">
-          <li className="text-sm">About</li>
-          <li className="text-sm">Pricing</li>
-          <li className="text-sm">Projects</li>
-          <li className="text-sm">Blogs</li>
+          <li className="text-sm">
+            <a href="https://htutwaiphyoe.medium.com/" target="_blank">
+              Blogs
+            </a>
+          </li>
+          <li className="text-sm">
+            <a href="https://www.clubhouse.com/@htutwaiphyoe_" target="_blank">
+              Podcasts
+            </a>
+          </li>
         </ul>
         <button className="bg-primary text-black rounded-full px-7 py-3">
           Contact
