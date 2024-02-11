@@ -50,7 +50,7 @@ export const skills = [
   },
   {
     title: "Tools",
-    description: "Figma, Git, Github, Github Actions, Vite, Storybook",
+    description: "Figma, Git, Github, Github Actions, Vite",
   },
   {
     title: "Knowledge",
