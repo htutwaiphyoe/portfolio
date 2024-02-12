@@ -3,7 +3,7 @@ import Image from "next/image";
 function Projects() {
   return (
     <section className="max-w-5xl mx-auto grid grid-cols-1">
-      <div className="grid w-full rounded-2xl p-10 bg-white gap-5">
+      <div className="grid w-full rounded-2xl p-10 bg-black text-white gap-5">
         <h2 className="font-bold text-4xl">Projects</h2>
         <div className="grid grid-cols-2 gap-10 rounded-2xl">
           <div className="grid gap-5">
@@ -12,22 +12,25 @@ function Projects() {
               alt="Rezeve"
               width={1000}
               height={500}
-              className="object-contain rounded-2xl w-full h-full"
+              className="object-over rounded-2xl w-full h-full"
             />
             <div>
               <div className="flex space-x-1 items-end">
                 <a
-                  className="text-xl font-bold hover:underline"
+                  className="text-xl font-bold hover:underline text-green"
                   href="https://www.rezeve.com/"
                   target="_black"
                 >
                   Rezeve
                 </a>
-                <span className="text-gray-dark text-base font-normal">
+                <span className="text-gray-light text-base font-normal">
                   (2021 - Present)
                 </span>
               </div>
-              <p>Rezeve is a SaaS platform for service-based businesses.</p>
+              <p>
+                I was assigned to take part in the Rezeve project, a SaaS
+                platform for service-based businesses.
+              </p>
             </div>
           </div>
           <div>
