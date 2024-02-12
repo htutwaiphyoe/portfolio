@@ -45,7 +45,7 @@ function Footer() {
                 href="https://htutwaiphyoe.medium.com/"
                 target="_blank"
               >
-                Blogs
+                Medium
               </a>
             </li>
             <li>
@@ -54,7 +54,7 @@ function Footer() {
                 href="https://www.clubhouse.com/@htutwaiphyoe_"
                 target="_blank"
               >
-                Podcasts
+                Clubhouse
               </a>
             </li>
           </ul>
