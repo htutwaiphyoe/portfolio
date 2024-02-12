@@ -18,7 +18,7 @@ function Hero() {
         />
         {"with"}
       </h2>
-      <p className="text-xl font-light text-center leading-9 max-w-4xl">
+      <p className="text-xl font-light text-center leading-9 w-full md:max-w-4xl">
         a passion for crafting digital products using cutting-edge technologies
         and delivering high quality solutions with considerations of
         <span className="font-bold text-primary-dark"> User Experience</span>,

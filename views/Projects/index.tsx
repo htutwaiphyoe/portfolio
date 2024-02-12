@@ -2,10 +2,10 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <section className="max-w-5xl mx-auto grid grid-cols-1">
+    <section className="w-full md:max-w-5xl mx-auto grid grid-cols-1">
       <div className="grid w-full rounded-2xl p-10 bg-black text-white gap-5">
         <h2 className="font-bold text-4xl">Projects</h2>
-        <div className="grid grid-cols-2 gap-10 rounded-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 rounded-2xl">
           <div className="grid gap-5">
             <Image
               src="/images/rezeve.png"

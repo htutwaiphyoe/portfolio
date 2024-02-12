@@ -9,13 +9,13 @@ import Footer from "@/views/Footer";
 
 function HomePage() {
   return (
-    <main className="bg-gray-lightest grid gap-20 pt-48 pb-20 px-5">
+    <main className="bg-gray-lightest grid gap-20 pt-48 pb-20 px-10 w-full">
       <Hero />
-      <section className="max-w-5xl mx-auto grid grid-cols-[2fr_1.2fr] gap-10 items-start">
+      <section className="grid-cols-1 w-full md:max-w-5xl mx-auto grid md:grid-cols-[2fr_1.2fr] gap-10 items-start">
         <About />
         <Portfolio />
       </section>
-      <section className="max-w-5xl mx-auto grid grid-cols-[1.2fr_2fr] gap-10 items-start">
+      <section className="grid-cols-1 w-full md:max-w-5xl mx-auto grid md:grid-cols-[1.2fr_2fr] gap-10 items-start">
         <Skills />
         <Milestones />
       </section>

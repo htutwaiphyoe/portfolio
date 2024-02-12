@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-white p-10 w-[1024px] mx-auto gap-10 grid rounded-2xl place-items-center">
+    <footer className="bg-white p-10 w-full md:max-w-5xl mx-auto gap-10 grid rounded-2xl place-items-center">
       <h3 className="text-5xl font-semibold text-center leading-snug">
         Want to start <br /> a project?
       </h3>
