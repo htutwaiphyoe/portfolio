@@ -36,6 +36,13 @@ export const milestones = [
     website: "https://www.codigo.co/",
     timeline: "Oct 2021 - Present",
   },
+  {
+    title: "BSc (Hons) - Computing (Information Systems)",
+    description: "First Class Degree (All subject distinctions)",
+    place: "University of Greenwich (UK)",
+    website: "https://www.gre.ac.uk/",
+    timeline: "Dec 2022 - Dec 2023",
+  },
 ];
 
 export const skills = [
