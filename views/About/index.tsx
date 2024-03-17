@@ -3,11 +3,13 @@ function About() {
     <div className="bg-white grid w-full rounded-2xl p-10 gap-5">
       <h2 className="font-bold text-4xl">About me</h2>
       <p>
-        I am Htut Wai Phyoe, a software engineer in Myanmar. I studied Computer
-        Science at Mandalay Technological University but dropped out at 4th
-        year. My career began at Codigo as a full-time frontend developer in
-        2021. Additionally, I willingly contribute to the community by sharing
-        my personal insights through high-quality blogs and podcasts.
+        I am Htut Wai Phyo, a software engineer currently located in Thailand. I
+        studied Computer Science at Mandalay Technological University and
+        dropped out at 4th year but I pursued my Bachelor degree back in
+        University of Greenwich. My career began at Codigo as a full-time
+        frontend developer in 2021 and I am working for Rezeve SaaS platform.
+        Additionally, I willingly contribute to the community by sharing my
+        personal insights through high-quality blogs and podcasts.
       </p>
     </div>
   );

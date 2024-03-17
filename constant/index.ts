@@ -1,6 +1,6 @@
 export const portfolio = [
   {
-    value: 2.5,
+    value: 2.6,
     label: "Professional experience",
   },
   {
