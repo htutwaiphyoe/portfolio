@@ -3,9 +3,9 @@ import Image from "next/image";
 function Projects() {
   return (
     <section className="w-full md:max-w-5xl mx-auto grid grid-cols-1">
-      <div className="grid w-full rounded-2xl p-10 bg-black text-white gap-5">
+      <div className="grid w-full rounded-2xl p-10 bg-white  gap-5">
         <h2 className="font-bold text-4xl">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 rounded-2xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 rounded-2xl bg-black text-white">
           <div className="grid gap-5">
             <Image
               src="/images/rezeve.png"
@@ -24,7 +24,7 @@ function Projects() {
                   Rezeve
                 </a>
                 <span className="text-gray-light text-base font-normal">
-                  (2021 - Present)
+                  (Oct 2021 - Present)
                 </span>
               </div>
               <p>
@@ -55,6 +55,53 @@ function Projects() {
               <li>
                 collaborating with team members to brainstorm the solutions for
                 day by day challenges
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 rounded-2xl bg-purple-lighter text-black">
+          <div className="grid gap-5">
+            <Image
+              src="/images/valhalla.png"
+              alt="Hotel Valhalla"
+              width={1000}
+              height={500}
+              className="object-over rounded-2xl w-full h-full"
+            />
+            <div>
+              <div className="flex space-x-1 items-end">
+                <a
+                  className="text-xl font-bold hover:underline text-purple"
+                  href="https://hotel-valhalla.vercel.app/"
+                  target="_black"
+                >
+                  Hotel Valhalla
+                </a>
+                <span className="text-gray-dark text-base font-normal">
+                  (Jan 2023 - Dec 2023)
+                </span>
+              </div>
+              <p>
+                It was a hotel management system for the final year project of
+                University of Greenwich
+              </p>
+            </div>
+          </div>
+          <div>
+            <p>I was responsible for</p>
+            <ul className="list-disc ml-4 grid gap-1 text-gray-">
+              <li>working with a supervisor starting from project proposal</li>
+              <li>
+                documenting the process of the project from scratch by using the
+                entire life cycle of DSDM methodology (Feasibility Study,
+                Exploration, Engineering, Evaluation)
+              </li>
+              <li>
+                crafting the fullstack web application for the system using
+                modern technologies
+              </li>
+              <li>
+                Project Features: https://www.youtube.com/watch?v=dJg2bkc5QNg
               </li>
             </ul>
           </div>

@@ -26,6 +26,10 @@ const config: Config = {
         dark: "#787878",
         DEFAULT: "#c4c4c4",
       },
+      purple: {
+        DEFAULT: "#6D57E0",
+        lighter: "#F5F3FD",
+      },
     },
   },
   plugins: [],

@@ -1,8 +1,8 @@
 function Footer() {
   return (
     <footer className="bg-white p-10 w-full md:max-w-5xl mx-auto gap-10 grid rounded-2xl place-items-center">
-      <h3 className="text-5xl font-semibold text-center leading-snug">
-        Want to start <br /> a project?
+      <h3 className="text-4xl font-semibold text-center leading-snug">
+        Let&apos;s keep in touch <br /> with me
       </h3>
       <ul className="flex items-center space-x-20">
         <li>
