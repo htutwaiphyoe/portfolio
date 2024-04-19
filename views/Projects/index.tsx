@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function Projects() {
   return (
@@ -82,8 +83,8 @@ function Projects() {
                 </span>
               </div>
               <p>
-                It was a hotel management system for the final year project of
-                University of Greenwich
+                A fully-fledged hotel management system for hotel valhalla, the
+                final year project of University of Greenwich
               </p>
             </div>
           </div>
@@ -101,7 +102,14 @@ function Projects() {
                 modern technologies
               </li>
               <li>
-                Project Features: https://www.youtube.com/watch?v=dJg2bkc5QNg
+                Project Features:{" "}
+                <Link
+                  href="https://youtu.be/M1RqLtKBP8U?si=LrmOQ8ziLJ-9nZxh"
+                  target="_blank"
+                  className="underline"
+                >
+                  https://youtu.be/M1RqLtKBP8U?si=LrmOQ8ziLJ-9nZxh
+                </Link>
               </li>
             </ul>
           </div>
