@@ -18,7 +18,7 @@ function Projects() {
             <div>
               <div className="flex space-x-1 items-end">
                 <a
-                  className="text-xl font-bold hover:underline text-green"
+                  className="text-xl font-bold underline text-green"
                   href="https://www.rezeve.com/"
                   target="_black"
                 >
@@ -72,7 +72,7 @@ function Projects() {
             <div>
               <div className="flex space-x-1 items-end">
                 <a
-                  className="text-xl font-bold hover:underline text-purple"
+                  className="text-xl font-bold underline text-purple"
                   href="https://hotel-valhalla.vercel.app/"
                   target="_black"
                 >
