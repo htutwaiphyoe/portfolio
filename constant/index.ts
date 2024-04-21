@@ -1,15 +1,15 @@
 export const portfolio = [
   {
-    value: 2.6,
-    label: "Professional experience",
+    value: 3,
+    label: "professional experience",
   },
   {
     value: 13,
-    label: "Quality blogs",
+    label: "quality blogs",
   },
   {
     value: 3,
-    label: "Sharing podcasts",
+    label: "sharing podcasts",
   },
 ];
 

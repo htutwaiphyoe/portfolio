@@ -3,7 +3,7 @@ function About() {
     <div className="bg-white grid w-full rounded-2xl p-10 gap-5">
       <h2 className="font-bold text-4xl">About me</h2>
       <p>
-        I am Htut Wai Phyo, a software engineer currently located in Thailand. I
+        I am Htut Wai Phyo, a software engineer currently based in Thailand. I
         studied Computer Science at Mandalay Technological University and
         dropped out at 4th year but I pursued my Bachelor degree back in
         University of Greenwich. My career began at Codigo as a full-time
