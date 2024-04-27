@@ -14,7 +14,11 @@ function Hero() {
           typeSpeed={40}
           backSpeed={50}
           backDelay={800}
-          strings={["software engineer", "frontend engineer", "web developer"]}
+          strings={[
+            "software engineer",
+            "frontend developer",
+            "fullstack developer",
+          ]}
         />
         {"with"}
       </h2>
