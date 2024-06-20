@@ -4,9 +4,9 @@ import Link from "next/link";
 function Projects() {
   return (
     <section className="w-full md:max-w-5xl mx-auto grid grid-cols-1">
-      <div className="grid w-full rounded-2xl p-10 bg-white  gap-5">
+      <div className="grid w-full rounded-2xl px-4 py-10 sm:p-10 bg-white  gap-5">
         <h2 className="font-bold text-4xl">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 rounded-2xl bg-black text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 p-3 sm:p-10 rounded-2xl bg-black text-white">
           <div className="grid gap-5">
             <Image
               src="/images/rezeve.png"
@@ -16,7 +16,7 @@ function Projects() {
               className="object-over rounded-2xl w-full h-full"
             />
             <div>
-              <div className="flex space-x-1 items-end">
+              <div className="flex space-y-1 sm:space-x-1 lg:flex-row flex-col lg:items-end">
                 <a
                   className="text-xl font-bold underline text-green"
                   href="https://www.rezeve.com/"
@@ -36,7 +36,7 @@ function Projects() {
           </div>
           <div>
             <p>I am responsible for</p>
-            <ul className="list-disc ml-4 grid gap-1 text-gray-">
+            <ul className="list-disc ml-4 grid gap-1 break-words">
               <li>
                 contributing the project from scratch with Agile Scrum
                 methodology
@@ -60,7 +60,7 @@ function Projects() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 rounded-2xl bg-purple-lighter text-black">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-10 p-3  sm:p-10 rounded-2xl bg-purple-lighter text-black">
           <div className="grid gap-5">
             <Image
               src="/images/valhalla.png"
@@ -70,7 +70,7 @@ function Projects() {
               className="object-over rounded-2xl w-full h-full"
             />
             <div>
-              <div className="flex space-x-1 items-end">
+              <div className="flex space-y-1 sm:space-x-1 lg:flex-row flex-col lg:items-end">
                 <a
                   className="text-xl font-bold underline text-purple"
                   href="https://hotel-valhalla.vercel.app/"
@@ -90,18 +90,18 @@ function Projects() {
           </div>
           <div>
             <p>I was responsible for</p>
-            <ul className="list-disc ml-4 grid gap-1 text-gray-">
+            <ul className="list-disc ml-4 grid gap-1 break-words">
               <li>working with a supervisor starting from project proposal</li>
-              <li>
+              <li className="pr-4">
                 documenting the process of the project from scratch by using the
                 entire life cycle of DSDM methodology (Feasibility Study,
                 Exploration, Engineering, Evaluation)
               </li>
-              <li>
+              <li className="pr-4">
                 crafting the fullstack web application for the system using
                 modern technologies
               </li>
-              <li>
+              <li className="pr-4 break-all">
                 Project Features:{" "}
                 <Link
                   href="https://youtu.be/M1RqLtKBP8U?si=LrmOQ8ziLJ-9nZxh"

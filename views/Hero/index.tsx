@@ -4,10 +4,10 @@ import { ReactTyped } from "react-typed";
 function Hero() {
   return (
     <section className="flex flex-col space-y-12 items-center justify-center">
-      <h1 className="bg-primary text-black p-5 rounded-xl text-6xl font-semibold">
+      <h1 className="bg-primary text-black p-5 rounded-xl text-3xl sm:text-6xl font-semibold">
         {"Hi, I'm HWP"}
       </h1>
-      <h2 className="text-5xl font-medium">
+      <h2 className="text-4xl sm:text-5xl font-medium text-center leading-[3rem]">
         {"A "}
         <ReactTyped
           loop

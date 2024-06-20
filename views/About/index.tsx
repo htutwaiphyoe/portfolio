@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-white grid w-full rounded-2xl p-10 gap-5">
+    <div className="bg-white grid w-full rounded-2xl px-4 py-10 sm:p-10 gap-5">
       <h2 className="font-bold text-4xl">About me</h2>
       <p>
         I am Htut Wai Phyo, a software engineer currently based in Thailand. I

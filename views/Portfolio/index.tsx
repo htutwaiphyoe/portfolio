@@ -3,7 +3,7 @@ import { portfolio } from "@/constant";
 
 function Portfolio() {
   return (
-    <div className="grid w-full rounded-2xl p-10 bg-primary gap-5 text-black">
+    <div className="grid w-full rounded-2xl px-4 py-10 sm:p-10 bg-primary gap-5 text-black">
       <h2 className="font-bold text-4xl">Portfolio</h2>
       <List
         of={portfolio}
