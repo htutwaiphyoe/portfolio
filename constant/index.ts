@@ -72,3 +72,61 @@ export const skills = [
       "OOP, SOLID principle, Functional Programming, Data Structure & Algorithms, TDD, API Development, User Experience, Clean Code, Test-driven Development",
   },
 ];
+
+export const platforms = [
+  {
+    link: "https://www.linkedin.com/in/htutwaiphyo/",
+    platform: "LinkedIn",
+  },
+  {
+    link: "https://github.com/htutwaiphyoe",
+    platform: "Github",
+  },
+  {
+    link: "https://htutwaiphyoe.medium.com/",
+    platform: "Medium",
+  },
+  {
+    link: "https://www.clubhouse.com/@htutwaiphyo_",
+    platform: "Clubhouse",
+  },
+];
+
+export const projects = [
+  {
+    image: "/images/rezerv.png",
+    name: "Rezerv",
+    type: "Service Business Management Software",
+    project: "Company",
+    duration: "Oct 2021 - Present",
+    website: "https://www.rezerv.co/",
+    description: `A powerful SaaS platform provides the tools and insights
+              businesses need to streamline operations, drive revenue, and
+              enhance the customer experience, empowering businesses to achieve
+              their full potential.`,
+  },
+  {
+    image: "/images/qr-x.png",
+    name: "QR-X",
+    type: "The Elegant QR Code Generator",
+    project: "Open-Source",
+    duration: "Dec 2023 - Present",
+    website: "https://qr-x.devtrice.dev/",
+    description: `QR-X is more than just a QR code generator. It’s a powerful tool
+              designed to seamlessly integrate with your favourite frontend
+              technologies, bringing your digital products to life with stunning
+              QR codes!`,
+  },
+  {
+    image: "/images/hotel-valhalla.png",
+    name: "Hotel Valhalla",
+    type: "Hotel Management System",
+    project: "Academic",
+    duration: "Jan 2023 - Dec 2023",
+    website: "https://hotel-valhalla.vercel.app/",
+    description: `The final year project of University of Greenwich which is a
+              fully-fledged hotel management system designed to modernize
+              traditional manual operations and enhance customer experiences to
+              the next level.`,
+  },
+];

@@ -1,6 +1,9 @@
+import List from "@/components/List";
+import { platforms } from "@/constant";
+
 function Footer() {
   return (
-    <footer className="bg-primary text-black p-4 sm:p-10 w-full md:max-w-5xl mx-auto gap-5 sm:gap-10 grid rounded-3xl place-items-center">
+    <footer className="bg-primary text-black p-5 sm:p-10 w-full md:max-w-5xl mx-auto gap-5 sm:gap-10 grid rounded-3xl place-items-center">
       <div>
         <h3 className="text-2xl sm:text-4xl font-semibold text-center border px-6 py-3 rounded-3xl">
           Want to work together?
@@ -23,42 +26,20 @@ function Footer() {
         <li>
           <p className="text-black">Follow me</p>
           <ul className="grid gap-5 sm:gap-10 sm:grid-cols-4 grid-cols-2">
-            <li>
-              <a
-                className="hover:underline font-semibold"
-                href="https://www.linkedin.com/in/htutwaiphyo/"
-                target="_black"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:underline font-semibold"
-                href="https://github.com/htutwaiphyoe"
-                target="_black"
-              >
-                Github
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:underline font-semibold"
-                href="https://htutwaiphyoe.medium.com/"
-                target="_blank"
-              >
-                Medium
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:underline font-semibold"
-                href="https://www.clubhouse.com/@htutwaiphyoe_"
-                target="_blank"
-              >
-                Clubhouse
-              </a>
-            </li>
+            <List
+              of={platforms}
+              renderItem={(item) => (
+                <li key={item.platform}>
+                  <a
+                    target="_black"
+                    href={item.link}
+                    className="hover:underline font-semibold"
+                  >
+                    {item.platform}
+                  </a>
+                </li>
+              )}
+            />
           </ul>
         </li>
       </ul>
