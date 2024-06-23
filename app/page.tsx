@@ -9,7 +9,7 @@ import Footer from "@/views/Footer";
 
 function HomePage() {
   return (
-    <main className="bg-gray-lightest grid gap-10 pt-40 pb-10 sm:pb-20 px-3 log:px-0 w-full md:max-w-7xl mx-auto">
+    <main className="bg-gray-lightest grid gap-10 pt-40 pb-10 sm:pb-20 px-3 w-full md:max-w-7xl mx-auto">
       <Hero />
       <section className="grid-cols-1 grid md:grid-cols-[2fr_1.2fr] gap-5 items-start">
         <About />
