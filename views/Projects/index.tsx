@@ -4,7 +4,7 @@ import { projects } from "@/constant";
 
 function Projects() {
   return (
-    <section className="w-full md:max-w-5xl mx-auto grid grid-cols-1">
+    <section className="grid grid-cols-1">
       <div className="grid w-full rounded-3xl p-5 sm:p-10 bg-white gap-5">
         <h2 className="font-bold text-4xl">Projects</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">

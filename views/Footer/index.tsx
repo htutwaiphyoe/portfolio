@@ -3,7 +3,7 @@ import { platforms } from "@/constant";
 
 function Footer() {
   return (
-    <footer className="bg-primary text-black p-5 sm:p-10 w-full md:max-w-5xl mx-auto gap-5 sm:gap-10 grid rounded-3xl place-items-center">
+    <footer className="bg-primary text-black p-5 sm:p-10 gap-5 sm:gap-10 grid rounded-3xl place-items-center">
       <div>
         <h3 className="text-2xl sm:text-4xl font-semibold text-center border px-6 py-3 rounded-3xl">
           Want to work together?
