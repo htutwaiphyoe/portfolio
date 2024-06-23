@@ -22,7 +22,7 @@ function Hero() {
         />
         {"with"}
       </h2>
-      <p className="text-xl font-light text-center leading-9 w-full md:max-w-5xl">
+      <p className="text-xl font-light text-center leading-9 w-full md:max-w-7xl">
         a proven track record in software engineering using cutting-edge
         technologies and consistently delivering high-quality solutions with the
         considerations of
