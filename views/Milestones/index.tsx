@@ -3,7 +3,7 @@ import { milestones } from "@/constant";
 
 function Milestones() {
   return (
-    <div className="grid w-full rounded-2xl px-4 py-10 sm:p-10 bg-white gap-5">
+    <div className="grid w-full rounded-3xl p-4 sm:p-10 bg-white gap-5">
       <h2 className="font-bold text-4xl">Milestones</h2>
       <List
         of={milestones}

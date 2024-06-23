@@ -8,9 +8,13 @@ import { cn } from "@/utils/helpers";
 const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.htutwaiphyo.pro/"),
   title: "Htut Wai Phyoe - Software Engineer",
   description:
-    "Htut Wai Phyoe, a experienced software engineer based in Myanmar",
+    "Htut Wai Phyoe, A skilled frontend developer with over 3 years of professional experience in designing, developing, and maintaining SaaS web applications.",
+  openGraph: {
+    images: "/images/avatar.png",
+  },
 };
 
 function RootLayout({ children }: PropsWithChildren) {

@@ -5,3 +5,7 @@
 body {
   @apply text-base leading-relaxed;
 }
+
+:focus-visible {
+  @apply outline-2 border-none outline-primary-darker;
+}

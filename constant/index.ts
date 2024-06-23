@@ -15,11 +15,25 @@ export const portfolio = [
 
 export const milestones = [
   {
-    title: "BE-CEIT",
-    description: "3rd Year - 4.4/5(GPA)",
-    place: "Mandalay Technological University",
-    website: "https://www.mtu.edu.mm/",
-    timeline: "Dec 2016 - Mar 2020",
+    title: "Lead Frontend Developer",
+    description: "Full-time - Remote",
+    place: "Codigo (Rezerv)",
+    website: "https://www.codigo.co/",
+    timeline: "May 2024 - Present",
+  },
+  {
+    title: "BSc (Hons) - Computing (Information Systems)",
+    description: "First Class Degree (All subject distinctions)",
+    place: "University of Greenwich (UK)",
+    website: "https://www.gre.ac.uk/",
+    timeline: "Dec 2022 - Dec 2023",
+  },
+  {
+    title: "Frontend Developer",
+    description: "Full-time - Remote",
+    place: "Codigo (Rezerv)",
+    website: "https://www.codigo.co/",
+    timeline: "Oct 2021 - Apr 2024",
   },
   {
     title: "CS50",
@@ -30,18 +44,11 @@ export const milestones = [
     timeline: "Sep 2020 - Dec 2020",
   },
   {
-    title: "Frontend Developer",
-    description: "Full-time - Remote",
-    place: "Codigo",
-    website: "https://www.codigo.co/",
-    timeline: "Oct 2021 - Present",
-  },
-  {
-    title: "BSc (Hons) - Computing (Information Systems)",
-    description: "First Class Degree (All subject distinctions)",
-    place: "University of Greenwich (UK)",
-    website: "https://www.gre.ac.uk/",
-    timeline: "Dec 2022 - Dec 2023",
+    title: "BE-CEIT",
+    description: "3rd Year - 4.4/5(GPA)",
+    place: "Mandalay Technological University",
+    website: "https://www.mtu.edu.mm/",
+    timeline: "Dec 2016 - Mar 2020",
   },
 ];
 
