@@ -19,12 +19,12 @@ function Navigation() {
       <nav className="hidden sm:flex justify-end sm:justify-between items-center w-full">
         <ul className="items-center space-x-8 flex">
           <li className="text-sm">
-            <a href="https://htutwaiphyoe.medium.com/" target="_blank">
+            <a href="https://htutwaiphyo.medium.com/" target="_blank">
               Blogs
             </a>
           </li>
           <li className="text-sm">
-            <a href="https://www.clubhouse.com/@htutwaiphyoe_" target="_blank">
+            <a href="https://www.clubhouse.com/@htutwaiphyo_" target="_blank">
               Podcasts
             </a>
           </li>

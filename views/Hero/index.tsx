@@ -8,16 +8,16 @@ function Hero() {
         {"Hi, I'm HWP"}
       </h1>
       <h2 className="text-2xl sm:text-5xl font-medium text-center leading-[3rem]">
-        {"A "}
         <ReactTyped
           loop
           typeSpeed={40}
           backSpeed={50}
           backDelay={800}
           strings={[
-            "software engineer",
-            "frontend developer",
-            "fullstack developer",
+            "A software engineer",
+            "A frontend developer",
+            "A fullstack developer",
+            "An open-source enthusiast",
           ]}
         />
         {"with"}
@@ -26,10 +26,10 @@ function Hero() {
         a proven track record in software engineering using cutting-edge
         technologies and consistently delivering high-quality solutions with the
         considerations of
-        <span className="font-bold text-primary-darker"> User Experience</span>,
-        <span className="font-bold text-primary-darker"> Performance </span>,
-        <span className="font-bold text-primary-darker"> Accessibility </span>&
-        <span className="font-bold text-primary-darker"> Clean code</span>.
+        <span className="font-bold text-primary-darkest"> User Experience</span>
+        ,<span className="font-bold text-primary-darkest"> Performance </span>,
+        <span className="font-bold text-primary-darkest"> Accessibility </span>&
+        <span className="font-bold text-primary-darkest"> Clean code</span>.
         Expertise in working closely with stakeholders to develop business
         features and ensure the timely delivery of project milestones.
       </p>

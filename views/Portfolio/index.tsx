@@ -9,7 +9,7 @@ function Portfolio() {
         of={portfolio}
         renderItem={(item) => (
           <div className="flex items-center space-x-3" key={item.label}>
-            <span className="text-3xl">{item.value}+</span>
+            <span className="text-4xl font-medium">{item.value}+</span>
             <span className="text-base">{item.label}</span>
           </div>
         )}

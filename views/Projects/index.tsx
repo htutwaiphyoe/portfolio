@@ -25,8 +25,11 @@ function Projects() {
                   />
                   <div>
                     <a
-                      className="text-xl font-bold hover:underline"
+                      target="_blank"
+                      rel="noreferrer"
                       href={item.website}
+                      aria-label={item.name}
+                      className="text-xl font-bold hover:underline"
                     >
                       {item.name}
                     </a>
@@ -37,6 +40,16 @@ function Projects() {
                   </div>
                 </div>
                 <p>{item.description}</p>
+                <div className="flex items-center flex-wrap gap-2">
+                  <List
+                    of={item.technologies}
+                    renderItem={(item) => (
+                      <p className="bg-primary text-sm rounded-md py-1 px-2 capitalize">
+                        {item}
+                      </p>
+                    )}
+                  />
+                </div>
               </div>
             )}
           />

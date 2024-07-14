@@ -83,7 +83,7 @@ export const platforms = [
     platform: "Github",
   },
   {
-    link: "https://htutwaiphyoe.medium.com/",
+    link: "https://htutwaiphyo.medium.com/",
     platform: "Medium",
   },
   {
@@ -104,6 +104,18 @@ export const projects = [
               businesses need to streamline operations, drive revenue, and
               enhance the customer experience, empowering businesses to achieve
               their full potential.`,
+    technologies: [
+      "sass",
+      "javascript",
+      "typescript",
+      "reactjs",
+      "nextjs",
+      "tailwind",
+      "mui",
+      "recoil",
+      "react-query",
+      "storybook",
+    ],
   },
   {
     image: "/images/qr-x.png",
@@ -116,6 +128,19 @@ export const projects = [
               designed to seamlessly integrate with your favourite frontend
               technologies, bringing your digital products to life with stunning
               QR codes!`,
+    technologies: [
+      "javascript",
+      "typescript",
+      "svg",
+      "reactjs",
+      "nextjs",
+      "vuejs",
+      "svelte",
+      "solidjs",
+      "tailwind",
+      "vanilla",
+      "turborepo",
+    ],
   },
   {
     image: "/images/hotel-valhalla.png",
@@ -128,5 +153,47 @@ export const projects = [
               fully-fledged hotel management system designed to modernize
               traditional manual operations and enhance customer experiences to
               the next level.`,
+    technologies: [
+      "typescript",
+      "reactjs",
+      "nextjs",
+      "tailwind",
+      "mui",
+      "redux",
+      "mongodb",
+    ],
+  },
+  {
+    image: "/images/react-beautiful-dnd-wrapper.png",
+    name: "React Beautiful DnD Wrapper",
+    type: "NPM Package",
+    project: "Open-Source",
+    duration: "July 2024 - Present",
+    website: "https://www.npmjs.com/package/react-beautiful-dnd-wrapper",
+    description: `A reusable wrapper component with TypeScript for Drag and Drop functionalities based on React Beautiful DnD. Creating a nested drag-and-drop interface like JIRA can be a bit complex with just the library, so a HOC abstraction is created for it.
+`,
+    technologies: ["typescript", "reactjs", "react-beautiful-dnd"],
+  },
+  {
+    image: "/images/columbia.png",
+    name: "Columbia University",
+    type: "Internal Realtime Idea Sharing System",
+    project: "Academic",
+    duration: "Jan 2023 - Apr 2023",
+    website: "https://github.com/htutwaiphyoe/columbia-university",
+    description: `Columbia University is a group project for the coursework of Enterprise Web Software Development subject. According to requirements, a secure role-based web application would be built with a group by using the agile scrum methodology.
+`,
+    technologies: ["typescript", "nextjs", "tailwind", "daisyui", "firebase"],
+  },
+  {
+    image: "/images/iyo.png",
+    name: "IYO - MTU",
+    type: "The Inspiration Youth Organization Website",
+    project: "Academic",
+    duration: "Sept 2019 - Dec 2019",
+    website: "https://github.com/htutwaiphyoe/IYO",
+    description: `A University club web application developed as a third year-end project for The Inspiration Youth Organization - IYO which is a united association of active Youths in Mandalay Technological University (MTU-COE).
+`,
+    technologies: ["sass", "javascript", "php", "mysql", "mvc-framework"],
   },
 ];

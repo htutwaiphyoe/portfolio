@@ -14,6 +14,7 @@ const config: Config = {
         DEFAULT: "#FEC857",
         dark: "#feb724",
         darker: "#EEA101",
+        darkest: "#c38101",
       },
       green: {
         DEFAULT: "#3EDD50",
@@ -23,7 +24,7 @@ const config: Config = {
       gray: {
         lightest: "#f7f7f8",
         light: "#e6e6e6",
-        dark: "#787878",
+        dark: "#5d5c5c",
         DEFAULT: "#c4c4c4",
       },
       purple: {

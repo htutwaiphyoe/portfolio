@@ -9,7 +9,7 @@ function Skills() {
         of={skills}
         renderItem={(item) => (
           <div key={item.title}>
-            <h4 className="font-bold text-xl">{item.title}</h4>
+            <h3 className="font-bold text-xl mb-2">{item.title}</h3>
             <p>{item.description}</p>
           </div>
         )}

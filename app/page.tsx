@@ -11,11 +11,11 @@ function HomePage() {
   return (
     <main className="bg-gray-lightest grid gap-10 pt-40 pb-10 sm:pb-20 px-3 w-full md:max-w-7xl mx-auto">
       <Hero />
-      <section className="grid-cols-1 grid md:grid-cols-[2fr_1.2fr] gap-5 items-start">
+      <section className="grid-cols-1 grid md:grid-cols-[2fr_1.2fr] gap-5">
         <About />
         <Portfolio />
       </section>
-      <section className="grid-cols-1 grid md:grid-cols-[1.2fr_2fr] gap-5 items-start">
+      <section className="grid-cols-1 grid md:grid-cols-[1.2fr_2fr] gap-5 justify-start">
         <Skills />
         <Milestones />
       </section>

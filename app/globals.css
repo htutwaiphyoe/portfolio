@@ -7,5 +7,5 @@ body {
 }
 
 :focus-visible {
-  @apply outline-2 border-none outline-primary-darker;
+  @apply outline-2 border-none outline-primary-darkest;
 }

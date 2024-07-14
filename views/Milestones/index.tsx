@@ -9,7 +9,7 @@ function Milestones() {
         of={milestones}
         renderItem={(milestone) => (
           <div key={milestone.title}>
-            <h4 className="font-bold text-xl">{milestone.title}</h4>
+            <h3 className="font-bold text-xl">{milestone.title}</h3>
             <p className="italic">{milestone.description}</p>
             <a
               target="_blank"
