@@ -9,9 +9,9 @@ const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.htutwaiphyo.pro/"),
-  title: "Htut Wai Phyoe - Software Engineer",
+  title: "Htut Wai Phyo - Software Engineer",
   description:
-    "Htut Wai Phyoe, A skilled frontend developer with over 3 years of professional experience in designing, developing, and maintaining SaaS web applications.",
+    "Htut Wai Phyo, A skilled frontend engineer with over 4 years of experience in designing, developing, and maintaining SaaS web applications.",
   openGraph: {
     images: "/images/avatar.png",
   },
