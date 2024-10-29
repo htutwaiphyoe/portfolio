@@ -9,7 +9,7 @@ function About() {
         follow a different path and pursued my Bachelor's degree at the
         University of Greenwich. In 2021, I
         started my professional journey as a frontend developer at CodigoSG and
-        I am an integral part of the Rezerv SaaS platform. Beyond my
+        I was an integral part of the Rezerv SaaS platform. Beyond my
         professional work, I am passionate about contributing to the community
         by participating in open-source projects and sharing valuable insights through high-quality blogs and podcasts.
         `}

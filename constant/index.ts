@@ -15,10 +15,17 @@ export const portfolio = [
 
 export const milestones = [
   {
-    title: "Lead Frontend Developer",
-    description: "Full-time - Remote",
-    place: "Codigo (Rezerv)",
-    website: "https://www.codigo.co/",
+    title: "Web Engineer",
+    description: "Full-time - Hybrid (Bangkok, Thailand)",
+    place: "Social+ (Formally Amity)",
+    website: "https://www.social.plus/",
+    timeline: "Oct 2024 - Present",
+  },
+  {
+    title: "Senior Frontend Developer Lead",
+    description: "Full-time - Remote (Singapore)",
+    place: "Rezerv (Codigo)",
+    website: "https://www.rezerv.co/",
     timeline: "May 2024 - Present",
   },
   {
@@ -30,9 +37,9 @@ export const milestones = [
   },
   {
     title: "Frontend Developer",
-    description: "Full-time - Remote",
-    place: "Codigo (Rezerv)",
-    website: "https://www.codigo.co/",
+    description: "Full-time - Remote (Singapore)",
+    place: "Rezerv (Codigo)",
+    website: "https://www.rezerv.co/",
     timeline: "Oct 2021 - Apr 2024",
   },
   {

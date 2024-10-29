@@ -3,7 +3,7 @@ import { skills } from "@/constant";
 
 function Skills() {
   return (
-    <div className="grid w-full rounded-3xl p-5 sm:p-10 bg-primary gap-5">
+    <div className="grid w-full rounded-3xl p-5 sm:p-10 bg-primary gap-5 place-content-start">
       <h2 className="font-bold text-4xl">Skills</h2>
       <List
         of={skills}
