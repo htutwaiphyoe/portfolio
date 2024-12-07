@@ -35,7 +35,7 @@ function Projects() {
                     </a>
                     <p className="text-base">{item.type}</p>
                     <p className="text-sm text-gray-dark">
-                      {item.project} Project ({item.duration})
+                      {item.project} ({item.duration})
                     </p>
                   </div>
                 </div>

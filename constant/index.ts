@@ -1,7 +1,7 @@
 export const portfolio = [
   {
     value: 3,
-    label: "professional experience",
+    label: "years of professional experience",
   },
   {
     value: 13,
@@ -26,7 +26,7 @@ export const milestones = [
     description: "Full-time - Remote (Singapore)",
     place: "Rezerv (Codigo)",
     website: "https://www.rezerv.co/",
-    timeline: "May 2024 - Present",
+    timeline: "May 2024 - Nov 2024",
   },
   {
     title: "BSc (Hons) - Computing (Information Systems)",
@@ -101,11 +101,31 @@ export const platforms = [
 
 export const projects = [
   {
+    image: "/images/socialplus.jpg",
+    name: "Social+",
+    type: "AI-powered pre-built social and community features",
+    project: "Company",
+    duration: "Oct 2024 - Present",
+    website: "https://www.social.plus/",
+    description: `The complete suite of AI-powered pre-built modules, UIKits, SDKs and API that bring the most popular features from social media to your own app or website for building a social ecosystem effortlessly across all platforms.`,
+    technologies: [
+      "html",
+      "css",
+      "typescript",
+      "reactjs",
+      "tailwind",
+      "react-aria",
+      "storybook",
+      "UIKits",
+      "SDKs",
+    ],
+  },
+  {
     image: "/images/rezerv.png",
     name: "Rezerv",
     type: "Service Business Management Software",
     project: "Company",
-    duration: "Oct 2021 - Present",
+    duration: "Oct 2021 - Nov 2024",
     website: "https://www.rezerv.co/",
     description: `A powerful SaaS platform provides the tools and insights
               businesses need to streamline operations, drive revenue, and

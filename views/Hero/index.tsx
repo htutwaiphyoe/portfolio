@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactTyped } from "react-typed";
 
 function Hero() {
   return (
@@ -8,21 +7,9 @@ function Hero() {
         {"Hi, I'm HWP"}
       </h1>
       <h2 className="text-2xl sm:text-5xl font-medium text-center leading-[3rem]">
-        <ReactTyped
-          loop
-          typeSpeed={40}
-          backSpeed={50}
-          backDelay={800}
-          strings={[
-            "A software engineer",
-            "A frontend developer",
-            "A fullstack developer",
-            "An open-source enthusiast",
-          ]}
-        />
-        {"with"}
+        A software engineer with
       </h2>
-      <p className="text-xl font-light text-center leading-9 w-full md:max-w-7xl">
+      <p className="text-xl font-light leading-9 w-full md:max-w-7xl text-center">
         a proven track record in software engineering using cutting-edge
         technologies and consistently delivering high-quality solutions with the
         considerations of
